@@ -1,0 +1,108 @@
+/* Colores */
+h1 {
+  color: blue; /* El color del texto es azul */
+}
+
+p {
+  color: green; /* El color del texto es verde */
+}
+
+/* Fondos de colores e imágenes */
+body {
+  background-color: rgb(101, 168, 70); /* El color de fondo del cuerpo es amarillo */
+}
+
+div {
+  background-image: url("flower.jpg"); /* La imagen de fondo del div es una flor */
+}
+
+/* Estilos de altura, anchura, padding y margin */
+div {
+  height: 200px; /* La altura del div es 200 píxeles */
+  width: 50%; /* El ancho del div es el 50% del contenedor */
+  padding: 20px; /* El espacio entre el contenido y el borde del div es 20 píxeles */
+  margin: 10px; /* El espacio entre el div y los elementos adyacentes es 10 píxeles */
+}
+
+/* Fuentes */
+p {
+  font-family: Arial, sans-serif; /* La familia de fuentes del párrafo es Arial o una fuente sin serifas */
+  font-size: 18px; /* El tamaño de la fuente del párrafo es 18 píxeles */
+  font-weight: bold; /* El peso de la fuente del párrafo es negrita */
+}
+
+/* Disposiciones y alineaciones */
+.container {
+  display: flex; /* El contenedor usa el modelo de caja flexible */
+  justify-content: center; /* Los elementos dentro del contenedor se alinean horizontalmente al centro */
+  align-items: center; /* Los elementos dentro del contenedor se alinean verticalmente al centro */
+}
+
+/* Posicionamiento */
+.box {
+  position: relative; /* La posición del elemento es relativa a su posición normal */
+  top: 50px; /* El elemento se desplaza 50 píxeles hacia abajo desde su posición normal */
+  left: 100px; /* El elemento se desplaza 100 píxeles hacia la derecha desde su posición normal */
+}
+
+/* Flexbox */
+.flex-container {
+  display: flex; /* El contenedor usa el modelo de caja flexible */
+}
+
+.flex-item {
+  flex-grow: 1; /* Los elementos dentro del contenedor crecen proporcionalmente al espacio disponible */
+}
+
+/* Overflow */
+p {
+  overflow: scroll; /* Si el contenido del párrafo excede el tamaño del elemento, se muestra una barra de desplazamiento */
+}
+
+/* Formulario */
+form {
+  border: solid black 2px; /* El formulario tiene un borde negro sólido de 2 píxeles de grosor */
+}
+
+label {
+  display: block; /* Los labels se muestran en bloques separados por saltos de línea */
+}
+
+input[type="submit"] {
+  background-color: green; /* El botón de enviar tiene un color de fondo verde */
+}
+
+/* Imágenes */
+img {
+  border-radius: 50%; /* Las imágenes tienen un borde redondeado con un radio de 50% */
+}
+
+/* Botones */
+button {
+  background-color: orange; /* Los botones tienen un color de fondo naranja */
+}
+
+/* Tablas */
+table {
+  border-collapse: collapse; /* Los bordes de las celdas se colapsan en uno solo */
+}
+
+th, td {
+  border: solid black 1px; /* Las celdas tienen un borde negro sólido de un píxel de grosor */
+}
+
+th {
+  background-color: gray; /* Las celdas de encabezado tienen un color de fondo gris */
+}
+
+td {
+  text-align: center; /* El texto dentro de las celdas se alinea al centro */
+}
+
+/* Videos y Audio */
+
+video, audio {
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
